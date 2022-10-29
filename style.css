@@ -1,0 +1,601 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+
+.navbar-brand {
+    font-size: unset;
+    height: 3.5rem;
+}
+
+.logo {
+    font-size: unset;
+    margin-left: 1rem;
+}
+
+.nav-main {
+    margin-left: 35rem;
+    padding: .8rem;
+}
+
+.nav-word a:hover {
+    text-decoration: underline;
+}
+
+.started-btn {
+    height: 35px;
+    margin-right: 20px;
+    padding: 3px 25px 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: black;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.started-btn:hover {
+    background-color: rgb(42, 42, 42);
+}
+
+.branding {
+    margin-top: 5rem;
+    padding: 6rem;
+    border-bottom: 1px solid black;
+}
+
+.branding-word {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    color: #000;
+    font-size: 7vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.35vw;
+}
+
+.first-box {
+    border-right: 1px solid black;
+    padding: 2.5rem 0;
+}
+
+
+.paragraph {
+    padding-right: 60px;
+}
+
+.paragraph-long {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: 'Soehne web buch', sans-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+    text-align: left;
+}
+
+.developers {
+    border-top: 1px solid black;
+    background: #fbc7d1;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.paragraph-dev {
+    font-family: 'Soehne web buch', sans-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+    font-size: 1.1rem;
+    border: 1px #fff;
+}
+
+.networking {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+}
+
+.networking-column {
+    width: 33%;
+    height: 100%;
+    padding-left: 1vw;
+}
+
+.networking .left .mid .right {
+    padding-right: 0.5vw;
+}
+
+.networking-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.networking-img {
+    width: 55px;
+    height: 55px;
+}
+
+.networking-anchor {
+    display: flex;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px none #000;
+    text-decoration: none;
+}
+
+.blah-2 {
+    font-family: 'Soehne web buch', sans-serif;
+    color: #000;
+    font-size: 28px;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.025vw;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.circle-1 {
+    height: 95%;
+}
+
+.circle-one {
+    width: 75px;
+    height: 90%;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 100%;
+    background-color: #4479ff;
+}
+
+/* .circle-two */
+
+.reader-img-1 {
+    height: 150px;
+    width: 150px;
+    margin-right: 25rem;
+}
+
+/* 
+.readers-quote {
+    
+} */
+
+
+.spaces {
+    background: black;
+    border-top: 1px solid #fff;
+    padding-bottom: 5rem;
+}
+
+
+.button-box {
+    align-items: center;
+    padding: 5px 32px;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #34a245;
+    cursor: pointer;
+    align-self: auto;
+    font-family: 'Soehne web buch', sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+    color: #fff;
+    margin: 0 32rem;
+    color: #34a245;
+}
+
+.button-box:hover {
+    background: #34a245;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.membership {
+    background: #34a245;
+    border-bottom: 1px solid black;
+}
+
+.membership-paragraph {
+    padding: 1rem 21rem;
+    color: black;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Soehne web buch', sans-serif;
+    font-size: 18px;
+}
+
+
+.button-box2 {
+    align-items: center;
+    padding: 8px 32px;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    align-self: auto;
+    font-family: 'Soehne web buch', sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+    color: #fff;
+    margin: 0 28rem;
+}
+
+.button-text2 {
+    width: 100%;
+}
+
+.button-box2:hover {
+    background: #fff;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.quality {
+    background: #34a245;
+}
+
+.quality-paragraph {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0 3rem 1rem 2rem;
+    background-color: transparent;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    color: #000;
+    font-size: 3.2vw;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: -0.12vw;
+    text-transform: none;
+}
+
+.quality-text {
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 20px;
+    padding: 0 3rem 1rem 2rem;
+    font-family: 'Soehne web buch', sans-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+}
+
+.download {
+    background-color: #b6e5a4;
+    border: 1px solid black;
+}
+
+.branding-word6 {
+    color: black;
+    font-size: 7.3vw;
+    padding-left: 1rem;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+}
+
+
+
+.blog-text {
+    color: #000;
+    font-size: 2.7vw;
+    line-height: 100%;
+    letter-spacing: -0.12vw;
+    text-transform: none;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+}
+
+.blog-paragraph {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: 'Soehne web buch', sans-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 127%;
+    font-weight: 400;
+}
+
+.blog-button {
+    padding: 5px 30px 5px;
+    margin-right: 25rem;
+    margin-top: 8rem;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-family: 'Soehne web buch', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #34a245;
+    color: #34a245;
+}
+
+.blog-button:hover {
+    background: #34a245;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.blog-button2 {
+    padding: 5px 30px 5px;
+    margin-right: 22rem;
+    margin-top: 8rem;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-family: 'Soehne web buch', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #34a245;
+    color: #34a245;
+}
+
+.blog-button2:hover {
+    background: #34a245;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.animation {
+    width: 35rem;
+    height: 35rem;
+    padding-left: 4rem;
+}
+
+.button-box5 {
+    height: 40px;
+    margin-top: 0px;
+    margin-right: 20px;
+    padding: 5px 28px 7px;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    background: #34a245;
+    margin-top: 9rem;
+    cursor: pointer;
+    margin-right: 26rem;
+}
+
+.button-text5 {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.button-box5:hover {
+    background: #1a4722;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+@media (max-width: 576px) {
+    /* .container-fluid {
+        width: 50%;
+    }
+
+    .nav-main {
+        margin-left: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .started-btn {
+        padding: 3px 10px 5px;
+        height: 35px;
+        margin: 0 12rem;
+        border-radius: 30px;
+        background-color: black;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .branding-word {
+        margin-left: 10rem;
+        font-family: 'Gt super text book', Georgia, sans-serif;
+        color: #000;
+        font-size: 15vw;
+        line-height: 100%;
+        font-weight: 400;
+        letter-spacing: -0.35vw;
+    }
+
+    .row {
+        width: 500%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        background-color: #fff;
+    }
+
+    .first-box {
+        border: none;
+        margin: 0 15rem;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .developers {
+        width: 500%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #fbc7d1;
+        border: none;
+    }
+
+    .branding-word {
+        padding-right: 10rem;
+    }
+
+
+    .paragraph-dev {
+        padding: 0;
+    }
+
+    .branding-word {
+        font-size: 2rem;
+    }
+
+    .blah-2 {
+        font-size: 1.5rem;
+    }
+
+    /* .paragraph-long {
+        font-size: 1.1rem;
+        text-align: left;
+    } */
+
+    /* .readers {
+        width: 500%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: black;
+    }
+
+
+
+
+
+
+    .spaces {
+        width: 500%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: black;
+    }
+
+
+
+
+
+    .membership {
+        width: 500%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #34a245;
+    }
+
+
+
+
+    .quality {
+        width: 500%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #34a245;
+    }
+
+
+
+
+    #animation1 {
+        border-top: 1px solid black;
+        width: 45rem;
+        height: 45rem;
+    }
+
+
+
+
+    .download {
+        width: 500%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        background: #b6e5a4;
+    }
+
+    .branding-word6 {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 8rem;
+        font-family: 'Gt super text book', Georgia, sans-serif;
+        color: #000;
+        font-size: 5rem;
+        line-height: 100%;
+        font-weight: 500;
+        letter-spacing: -0.35vw;
+    }
+
+    .img-download {
+        width: 30rem;
+        height: 30rem;
+        padding-left: 3rem;
+    }
+
+    .download-text {
+        font-size: 2rem;
+    }
+
+    .app-icon {
+        padding-bottom: 4rem;
+        padding-left: 6rem;
+    }
+
+
+
+    .blog {
+        width: 500%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+
+
+    .work {
+        width: 500%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+
+    .read {
+        width: 500%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+
+
+
+    .animation {
+        width: 15rem;
+        height: 15rem;
+        padding-left: 4rem;
+    } */
+} 
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
